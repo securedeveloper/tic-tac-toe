@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+  </head>
+  <body>
+    <div class="wait">&nbsp;</div>
+    <div class="toss">&nbsp;</div>
+    <div class="toast">&nbsp;</div>
+    <div id="info-panel">
+      <span class="info-symbols">&nbsp;</span>
+      <span class="info-turn">&nbsp;</span>
+    </div>
+    <div class="result">
+      <span class="result-text">This is result!</span>
+    </div>
+    <div id="grid">
+      <div class="grid-row">
+        <div class="grid-item cell-11" data-row="1" data-col="1">&nbsp;</div>
+        <div class="grid-item cell-12" data-row="1" data-col="2">&nbsp;</div>
+        <div class="grid-item cell-13" data-row="1" data-col="3">&nbsp;</div>
+        <div class="grid-item cell-14" data-row="1" data-col="4">&nbsp;</div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-item cell-21" data-row="2" data-col="1">&nbsp;</div>
+        <div class="grid-item cell-22" data-row="2" data-col="2">&nbsp;</div>
+        <div class="grid-item cell-23" data-row="2" data-col="3">&nbsp;</div>
+        <div class="grid-item cell-24" data-row="2" data-col="4">&nbsp;</div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-item cell-31" data-row="3" data-col="1">&nbsp;</div>
+        <div class="grid-item cell-32" data-row="3" data-col="2">&nbsp;</div>
+        <div class="grid-item cell-33" data-row="3" data-col="3">&nbsp;</div>
+        <div class="grid-item cell-34" data-row="3" data-col="4">&nbsp;</div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-item cell-41" data-row="4" data-col="1">&nbsp;</div>
+        <div class="grid-item cell-42" data-row="4" data-col="2">&nbsp;</div>
+        <div class="grid-item cell-43" data-row="4" data-col="3">&nbsp;</div>
+        <div class="grid-item cell-44" data-row="4" data-col="4">&nbsp;</div>
+      </div>
+    </div>
+    <!-- <script src="http://code.jquery.com/jquery-1.11.1.js"></script> -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/public/js/game.js"></script>
+  </body>
+</html>
